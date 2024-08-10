@@ -1,0 +1,130 @@
+{
+  "patients": [
+    {
+      "id": "f576e488-619a-4f1a-ac5d-074d52309b58",
+      "name": "kajal",
+      "age": 26,
+      "address": "103, shantikunj society",
+      "zipcode": 395009,
+      "mobile": 8200538696,
+      "first_name": "kajal",
+      "last_name": "kapadiya",
+      "dob": "1998-02-07",
+      "gender": "female",
+      "blood_group": "O+",
+      "email": "kajalkapadiya18@gmail.com",
+      "password": "1234567",
+      "selected": true
+    },
+    {
+      "id": "f0e2e9d9-95b9-49be-b172-fd70e67d5ff0",
+      "name": "test",
+      "age": 20,
+      "address": "Motera",
+      "zipcode": 777777,
+      "mobile": 7777777777,
+      "first_name": "test",
+      "last_name": "test",
+      "dob": "2017-06-14",
+      "gender": "male",
+      "blood_group": "B+",
+      "email": "test@example.com",
+      "password": "1234567"
+    },
+    {
+      "id": "42ef9991-c360-4db6-aa05-ed8490eb92fe",
+      "name": "abc",
+      "age": 19,
+      "address": "Surat",
+      "zipcode": 111111,
+      "mobile": 1111111111,
+      "first_name": "abc",
+      "last_name": "abc",
+      "dob": "2024-07-31",
+      "gender": "male",
+      "blood_group": "B-",
+      "email": "abc@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "users": [
+    {
+      "email": "test@example.com",
+      "password": "1234567",
+      "order": [
+        {
+          "patient_id": "kajal",
+          "items": "[{\"medicine_id\":\"4nI2ShnNiJZdb7Qlk5D7Ug==\",\"quantity\":2},{\"medicine_id\":\"DfeYqapVG1pmtceBJxQJ7Q==\",\"quantity\":1}]",
+          "totalQuantity": 3,
+          "totalPrice": 265,
+          "apikey": "",
+          "address": "103, shantikunj society",
+          "address_line2": "",
+          "city": "surat",
+          "state": "gujrat",
+          "zipcode": "395009",
+          "mobile": "09724338640",
+          "patient_name": ""
+        }
+      ],
+      "cart": [],
+      "id": 1
+    },
+    {
+      "email": "xyz@gmail.com",
+      "password": "1234567",
+      "order": [],
+      "cart": [
+        {
+          "dosage_type": "",
+          "medicine_name": "Dolo Tablet (15 Tablet X Strip)",
+          "content": "Losartan Potassium (25mg)",
+          "mrp": "100",
+          "price": "100",
+          "medicine_id": "UAKO7X6D0TbU2WxjVunkdQ==",
+          "packing_size": "1 Strip of 15 Tablet",
+          "size": "15",
+          "manufacturer_name": "Micro Labs Ltd",
+          "medicine_type": "",
+          "gst_percentage": "0",
+          "available_for_patient": "no",
+          "discontinued": "no",
+          "quantity": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "kajalkapadiya18@gmail.com",
+      "password": "1234567",
+      "order": [],
+      "cart": [],
+      "id": 3
+    },
+    {
+      "email": "vidhi@gmail.com",
+      "password": "1234567",
+      "order": [],
+      "cart": [
+        {
+          "dosage_type": "tablet",
+          "medicine_name": "Betacard 50 Tablet (14 Tablet)",
+          "content": "Atenolol (50mg)",
+          "mrp": "27.85",
+          "price": "27.85",
+          "medicine_id": "HfxsCvmDtBWZAifd3yffOA==",
+          "packing_size": "1 Strip of  14 Tablet",
+          "size": "14",
+          "manufacturer_name": "Torrent Pharmaceuticals Ltd",
+          "medicine_type": "drug",
+          "gst_percentage": "12",
+          "available_for_patient": "yes",
+          "discontinued": "no",
+          "in_stock": "yes",
+          "quantity": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
